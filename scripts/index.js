@@ -28,7 +28,7 @@ const getProducts = function () {
                 alt="product image"
               />
               <div class="card-body text-center bg-dark text-white">
-                <a href="./details.html?productId=${product._id}" class="btn btn-success w-100">Vai ai dettagli</a>
+                <a href="./details.html?productId=${product._id}" class="btn btn-success mb-5 ">Vai ai dettagli</a>
               </div>
             </div>
           </div>

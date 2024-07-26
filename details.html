@@ -14,6 +14,24 @@
       .fit-content {
         width: fit-content;
       }
+      .img-fluid {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .card {
+        flex-direction: column;
+      }
+
+      @media (min-width: 768px) {
+        .card {
+          flex-direction: row;
+        }
+      }
+
+      .quantity-input {
+        width: 80px;
+      }
     </style>
   </head>
   <body class="bg-dark text-white">
